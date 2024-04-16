@@ -15,7 +15,8 @@
   "additionalDashboardUsers": {
     "users": []
   },
-  "tutorialProject": false,
+  "tutorialProject": true,
+  "tutorialId": "QS_DEVELOPERS",
   "settings": {
     "flowAnchorSourcesAndSinks": true,
     "flowDisplaySettings": {
@@ -137,7 +138,8 @@
     },
     "dkuProperties": []
   },
-  "name": "Developers Quick Start",
+  "name": "Developers Quick Start for pollybernardes",
+  "projectStatus": "Sandbox",
   "imgPattern": 5,
   "showInitials": false,
   "metrics": {
