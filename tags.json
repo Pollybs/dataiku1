@@ -1,19 +1,43 @@
 {
   "tags": {
-    "python": {},
-    "code": {},
-    "quick start": {},
-    "machine learning": {},
-    "mlflow": {},
-    "section:Quick Starts": {},
-    "downloads": {},
-    "code environment": {},
+    "python": {
+      "color": "#d66b9b"
+    },
+    "code": {
+      "color": "#77bec2"
+    },
+    "quick start": {
+      "color": "#77bec2"
+    },
+    "machine learning": {
+      "color": "#28aadd"
+    },
+    "mlflow": {
+      "color": "#94be8e"
+    },
+    "section:Quick Starts": {
+      "color": "#94be8e"
+    },
+    "downloads": {
+      "color": "#de1ea5"
+    },
+    "code environment": {
+      "color": "#d66b9b"
+    },
     "imported": {
       "color": "#263238"
     },
-    "developer": {},
-    "tutorial": {},
-    "section:Quick Start": {},
-    "notebook": {}
+    "developer": {
+      "color": "#123883"
+    },
+    "tutorial": {
+      "color": "#FFD83D"
+    },
+    "section:Quick Start": {
+      "color": "#00a55a"
+    },
+    "notebook": {
+      "color": "#a088bd"
+    }
   }
 }
