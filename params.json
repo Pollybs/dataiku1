@@ -63,8 +63,9 @@
     },
     "codeEnvs": {
       "python": {
-        "mode": "INHERIT",
-        "preventOverride": false
+        "mode": "EXPLICIT_ENV",
+        "preventOverride": false,
+        "envName": "heart-attack-project"
       },
       "r": {
         "mode": "INHERIT",
