@@ -1,0 +1,259 @@
+{
+  "dashboardAuthorizations": {
+    "allAuthorized": false,
+    "authorizations": []
+  },
+  "exposedObjects": {
+    "objects": []
+  },
+  "projectType": "REGULAR",
+  "projectAppType": "REGULAR",
+  "hasSetupSection": false,
+  "owner": "pollybernardes@gmail.com",
+  "permissionsVersion": "V2",
+  "permissions": [],
+  "additionalDashboardUsers": {
+    "users": []
+  },
+  "tutorialProject": false,
+  "settings": {
+    "flowAnchorSourcesAndSinks": true,
+    "flowDisplaySettings": {
+      "zonesGraphRenderingAlgorithm": "DOT_OLDRANK",
+      "zonesGraphConnectZones": true,
+      "zonesGraphForJobs": true
+    },
+    "gitCommitMode": "AUTO",
+    "disableAutomaticTriggers": false,
+    "integrations": {
+      "integrations": []
+    },
+    "flowBuildSettings": {
+      "mergeSparkPipelines": false,
+      "pruneBeforeSparkPipelines": true,
+      "mergeSqlPipelines": false,
+      "pruneBeforeSqlPipelines": true
+    },
+    "sharingRequestsEnabled": "INHERIT",
+    "limitedVisibilityEnabled": "INHERIT",
+    "accessRequestsEnabled": "INHERIT",
+    "limitsSettings": {
+      "memSampleBytes": {
+        "soft": -1,
+        "hard": -1
+      },
+      "shakerMemTableBytes": {
+        "soft": -1,
+        "hard": -1
+      },
+      "attachmentBytes": {
+        "soft": -1,
+        "hard": -1
+      }
+    },
+    "relocationSettings": {
+      "sqlLikeRecipesInitializationMode": "RESOLVED_TABLE_REFERENCES"
+    },
+    "recipeEnginesPreferences": {
+      "forbiddenEngines": [],
+      "enginesPreferenceOrder": [],
+      "forbiddenByRecipeType": {},
+      "preferenceByRecipeType": {}
+    },
+    "codeEnvs": {
+      "python": {
+        "mode": "INHERIT",
+        "preventOverride": false
+      },
+      "r": {
+        "mode": "INHERIT",
+        "preventOverride": false
+      },
+      "julia": {
+        "mode": "INHERIT",
+        "preventOverride": false
+      }
+    },
+    "container": {
+      "containerMode": "INHERIT"
+    },
+    "containerForVisualRecipesWorkloads": {
+      "containerMode": "INHERIT"
+    },
+    "datasetsCreationSettings": {
+      "useGlobal": true,
+      "preferedStorageFormats": "CSV_ESCAPING_NOGZIP_FORHIVE,CSV_EXCEL_GZIP,PARQUET_HIVE",
+      "virtualizable": false,
+      "allowUploadsWithoutConnection": true
+    },
+    "hiveEngineCreationSettings": {
+      "useGlobal": true,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "sparkEngineCreationSettings": {
+      "useGlobal": true,
+      "executionEngine": "SPARK_SUBMIT",
+      "useGlobalMetastore": false
+    },
+    "impalaEngineCreationSettings": {
+      "useGlobal": true,
+      "streamMode": true
+    },
+    "wikiSettings": {
+      "promoted": false
+    },
+    "cluster": {
+      "clusterMode": "INHERIT"
+    },
+    "k8sCluster": {
+      "clusterMode": "INHERIT"
+    },
+    "virtualWebAppBackendSettings": {
+      "mode": "INHERIT",
+      "preventOverride": false,
+      "infra": {
+        "containerSelection": {
+          "containerMode": "INHERIT"
+        },
+        "overrideGlobalK8sExposition": false,
+        "exposition": {
+          "type": "local_process",
+          "params": {}
+        },
+        "scaling": {
+          "initialReplicas": 1,
+          "progressDeadlineSeconds": 600,
+          "hpa": false,
+          "hpaTargetCPUPercent": 0,
+          "hpaMetrics": [],
+          "hpaMinPods": 0,
+          "hpaMaxPods": 0,
+          "hpaAnnotations": []
+        },
+        "deploymentModifier": {
+          "config": {}
+        }
+      }
+    },
+    "dkuProperties": []
+  },
+  "name": "Developers Quick Start",
+  "imgPattern": 5,
+  "showInitials": false,
+  "metrics": {
+    "probes": [],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": []
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1691509297443,
+    "extendedProperties": {}
+  },
+  "description": "# Readme\n\nYou can find the full instructions for running this project in [Developer Guige Getting Started](https://developer.dataiku.com/latest/getting-started/quickstart-tutorial/index.html).\n\nThe goal of this project is to predict heart attack failures, using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). Using python notebooks and Dataiku Machine Learning experiment tracking capabilities, the project will go through data preparation, machine learning experimentation using classic scikit-learn models, and model evaluation. \n\n## Configuration\n\n### 1. Create a python code environment\n\nTo run the notebooks and the different python components of this project, you\u0027ll need to create a python\u003e\u003d3.6 [code environment](https://doc.dataiku.com/dss/latest/code-envs/index.html) named `heart-attack-project` with the following required packages:\n```\nseaborn\u003d\u003d0.11.2\nmlflow\u003d\u003d1.23.1\nmlflow[extras]\nscikit-learn\u003d\u003d0.24.2\nprotobuf\u003d\u003d3.20.*```\n\n[Instructions for creating a new code environment](https://doc.dataiku.com/dss/latest/code-envs/operations-python.html#create-a-code-environment)\n\n### 2. Set the new code environment as default for the project\n\nTo make sure the code environment is automatically selected to run all the python scripts in your project, we will change the project settings to use to by default.\n\n- On the top bar, select: `...`\u003e`Settings`\u003e`Code env selection`\n- In the **Default Python code env**: \n - Change *Mode* to `Select an environment`\n - In the *Environment* parameter, select the code environment you\u0027ve just created\n - Click \u0027Save\u0027 or do a Ctrl+S\n\n## How to run the project\n\nIn the following Tutorial, you\u0027ll find the guidelines to use the different notebooks to experiment and build your project pipeline.\n\n## Project overview\n\nThe project comes with: \n- an [input dataset](dataset:heart_measures)\n- three Jupyter Notebooks that we will use to explore that data, experiment and build the project pipeline (the Flow).\n- a python repository stored in the [project library](https://doc.dataiku.com/dss/latest/python/reusing-code.html#sharing-python-code-within-a-project), with some python functions that we will be use in the different notebooks\n\nTo build the project and create the pipeline, you can run the notebooks one by one in the order described above and follow the instructions described in the notebooks.\n\n### Step 1: Data Preparation\n\nThe [first notebook](jupyter_notebook:1 - Prepare the heart_measures dataset for ML modeling) performs a quick data analysis of the input dataset, applies a few data cleaning steps, using some python functions stored in the project library repository, and split the prepared dataset into a train and a test set.\n\n*Hint*: Don\u0027t forget to follow the instructions in the **4. Next: use this notebook to create a new step of the pipeline** section of the notebook to create a preparation step on the project pipeline (the Flow). This step is required for the rest of the project.\n\n### Step 2: Machine Learning experimentation\n\nThe [second notebook](jupyter_notebook:2 - Experiment different ML approaches) tests different machine learing models and parameters to predict heart failures. It stores all the experiment in our experiment tracking tool.\n\n### Step 3: Deployment and evaluation of the best performing model\n\nThe [third notebook](jupyter_notebook:3 - Create a Saved Model using the best performing model) collects the best model optimizing the chosen metric (accuracy) from the experiment tracking tool to deploy it in the project Flow.\n\n*Hint*: Don\u0027t forget to follow the instructions in the **5. Next: use this notebook to create a new step on the pipeline** section of the notebook to create a new step on the project pipeline (the Flow) and evaluate the model on the test dataset.",
+  "shortDesc": "Take your first steps using the [Getting Started for Developers](https://developer.dataiku.com/latest/getting-started/quickstart-tutorial/index.html)",
+  "tags": [
+    "code",
+    "machine learning",
+    "python",
+    "section:Quick Starts",
+    "notebook",
+    "mlflow",
+    "developer",
+    "downloads",
+    "tutorial",
+    "code environment"
+  ],
+  "customFields": {},
+  "checklists": {
+    "checklists": [
+      {
+        "title": "Your new project\u0027s Todo",
+        "createdOn": 0,
+        "items": [
+          {
+            "done": true,
+            "text": "Create the project",
+            "createdOn": 1691509297457,
+            "createdBy": "admin",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Set a project image (click on the color next to the project title)",
+            "createdOn": 1691509297457,
+            "createdBy": "admin",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Import your [first dataset](projects/QUICKSTARTTUTORIALDEVELOPERS/datasets/new/)",
+            "createdOn": 1691509297457,
+            "createdBy": "admin",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Organize your work by replacing this with a real todo",
+            "createdOn": 1691509297457,
+            "createdBy": "admin",
+            "stateChangedOn": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1691509297468,
+    "versionNumber": 0
+  },
+  "customFields": {},
+  "listed": true,
+  "name": "Quickstart Tutorial - Developers's default dashboard",
+  "owner": "admin",
+  "pages": [
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": []
+      },
+      "id": "ZACooUe",
+      "showTitle": false
+    }
+  ],
+  "showGrid": true,
+  "tags": [],
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1691509297468,
+    "versionNumber": 0
+  }
+}
