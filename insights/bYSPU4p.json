@@ -28,8 +28,8 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Count by Sex",
-      "userEditedName": false,
+      "name": "Gender",
+      "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
         {
