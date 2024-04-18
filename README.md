@@ -4,9 +4,12 @@ Project Objective: Build a precise predictive model leveraging machine learning 
 
 <h2>Project Steps: </h2>
 Using Python notebooks and Dataiku Machine Learning experiment tracking capabilities, I went through:
+
 - Configuration of the Dataiku DSS environment and project,
 
 - Data preparation and EDA,
+
+- Configuration of a Dataiku Flow
   
 - Machine learning experimentation using classic scikit-learn models,
   
