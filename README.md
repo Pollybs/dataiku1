@@ -10,17 +10,23 @@ Dataiku DSS(Dataiku Data Science Studio) is a Big Data solution and predictive a
 Using Python notebooks and Dataiku Machine Learning experiment tracking capabilities, I went through:
 <b>- Configuration of the Dataiku DSS environment and project,</b>
 
-- Data preparation and EDA,
+<h3>1 - Data preparation and EDA</h3>
   
-- Configuration of a Dataiku Flow
+<h3>2 - Configuration of a Dataiku Flow</h3>
   
-- Machine learning experimentation using classic scikit-learn models:
-- test different Machine Learning approaches to predict heart failures using scikit-learn models (logistic regression, SVM, decision tree, and random forest).
--  For each model, we will first perform a grid search to find the best parameters, then train the model on the train set using these best parameters and finally log everything (parameters, performance metrics, and models) to keep track of the results of our different experiments and be able to compare afterward. 
-   - Logistic Regression
-   - Decision Tree
+<h3>3 - Machine learning experimentation: the test of different Machine Learning approaches to predict heart failures using scikit-learn models</h3>
+
+Scikit-learn models models tested: 
+  - Logistic regression,
+  - SVM
+  - Decision Tree
+  - Random Forest
   
-- Model evaluation.
+a) For each model, a grid search was performed to find the best hyper parameters
+b) Then the model was trained on the train set using these best parameters and cross-validation,
+c) Everything (parameters, performance metrics, and models) was logged in the Daitaku Experiment Tracking (MLFlow framework) to keep track of the results of the different experiments and be able to compare afterward. 
+
+<h3>Model evaluation</h3>
 
 
 <h2>Dataset </h2>
