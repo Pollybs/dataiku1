@@ -1,5 +1,5 @@
 {
-  "name": "new_folder",
+  "name": "Binary classif experiments",
   "type": "S3",
   "params": {
     "bucket": "gis-data-eu-west-3",
