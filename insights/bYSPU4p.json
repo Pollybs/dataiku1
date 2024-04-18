@@ -28,14 +28,70 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Chart",
+      "name": "Count by Sex",
       "userEditedName": false,
       "displayWithEChartsByDefault": true,
-      "genericDimension0": [],
+      "genericDimension0": [
+        {
+          "column": "Sex",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "forceLastPositionOthers": false,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of Sex, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of Sex, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Count of Sex, descending"
+          },
+          "multiplier": "Auto",
+          "digitGrouping": "DEFAULT"
+        }
+      ],
       "genericDimension1": [],
       "facetDimension": [],
       "animationDimension": [],
-      "genericMeasures": [],
+      "genericMeasures": [
+        {
+          "column": "Sex",
+          "function": "COUNT",
+          "type": "ALPHANUM",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "multiplier": "Auto",
+          "digitGrouping": "DEFAULT",
+          "showDisplayLabel": true,
+          "labelPosition": "BOTTOM",
+          "colorRules": []
+        }
+      ],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -80,6 +136,7 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
+      "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -237,7 +294,7 @@
         "heatDensityMapRadius": 0.5,
         "singleColor": "#2678B1",
         "transparency": 0.75,
-        "colorPalette": "default",
+        "colorPalette": "dku_corpo1",
         "customPalette": {
           "id": "__dku_custom__",
           "name": "Custom Palette",
@@ -245,12 +302,15 @@
           "values": [],
           "fixedValues": false
         },
-        "customColors": {}
+        "customColors": {
+          "m_Sex_COUNT_1": "#0075B2"
+        }
       },
       "bubblesOptions": {
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
       },
+      "computeMode": "NORMAL",
       "xAxisMode": "NORMAL",
       "yAxisMode": "NORMAL",
       "pieOptions": {
@@ -333,7 +393,7 @@
         }
       },
       "useLiveProcessingIfAvailable": true,
-      "legendPlacement": "OUTER_RIGHT",
+      "legendPlacement": "SIDEBAR",
       "legendFormatting": {
         "fontSize": 11,
         "fontColor": "#333",
@@ -375,7 +435,7 @@
   },
   "owner": "pollybernardes@gmail.com",
   "listed": false,
-  "name": "Chart on heart_measures",
+  "name": "Count by Sex on heart_measures",
   "dashboardCreationId": "ynpnAWt",
   "creationTag": {
     "versionNumber": 0,
