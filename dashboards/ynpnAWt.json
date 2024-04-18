@@ -8,7 +8,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 3,
+              "left": 7,
               "width": 2,
               "height": 3
             },
@@ -61,7 +61,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 3,
+              "top": 4,
               "left": 6,
               "width": 6,
               "height": 5
@@ -76,7 +76,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 3,
+              "top": 4,
               "left": 0,
               "width": 6,
               "height": 5
@@ -92,7 +92,7 @@
             "tileType": "IMAGE",
             "box": {
               "top": 0,
-              "left": 5,
+              "left": 0,
               "width": 4,
               "height": 3
             },
@@ -109,7 +109,7 @@
             "tileType": "IMAGE",
             "box": {
               "top": 0,
-              "left": 0,
+              "left": 4,
               "width": 3,
               "height": 3
             },
@@ -124,7 +124,7 @@
         ]
       },
       "title": "EDA Heart Failure Prediction Dataset.",
-      "showTitle": false,
+      "showTitle": true,
       "enableCrossFilters": true,
       "showFilterPanel": true,
       "filtersParams": {
