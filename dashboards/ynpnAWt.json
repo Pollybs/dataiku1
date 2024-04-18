@@ -164,7 +164,7 @@
     }
   ],
   "owner": "pollybernardes@gmail.com",
-  "listed": false,
+  "listed": true,
   "name": "EDA Heart Failure Prediction Dataset",
   "showGrid": false,
   "showNavigationArrows": false,
