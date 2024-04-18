@@ -70,6 +70,8 @@
             "label": "Natural ordering",
             "sortAscending": true
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT"
         }
@@ -90,6 +92,8 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "prefix": "",
+          "suffix": "",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "colorRules": []
@@ -179,7 +183,7 @@
         {
           "id": "y_left_0",
           "displayAxis": true,
-          "showAxisTitle": true,
+          "showAxisTitle": false,
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
