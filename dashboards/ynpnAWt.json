@@ -114,7 +114,7 @@
             },
             "clickAction": "DO_NOTHING",
             "autoLoad": true,
-            "showTitle": "MOUSEOVER",
+            "showTitle": "YES",
             "title": "Target variable",
             "displayMode": "IMAGE",
             "imageId": "bTXOhyd",
