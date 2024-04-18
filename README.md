@@ -30,7 +30,7 @@ b) Then the model was trained on the train set using these best parameters and c
 c) Everything (parameters, performance metrics, and models) was logged in the Daitaku Experiment Tracking (MLFlow framework) to keep track of the results of the different experiments and be able to compare afterward. 
 
 <h3>Model evaluation</h3>
-![modeleva](https://github.com/Pollybs/dataiku_ML_heart_attack_prediction/blob/main/dataiku_experiment_tracking.PNG)
+![MOD](https://github.com/Pollybs/dataiku_ML_heart_attack_prediction/blob/main/dataiku_experiment_tracking.png)
 
 
 <h2>Dataset </h2>
