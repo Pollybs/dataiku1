@@ -5,4 +5,4 @@ The goal of this project is to predict heart attack failures, using the Heart Fa
 <h2>Project Steps: </h2>
 Using python notebooks and Dataiku Machine Learning experiment tracking capabilities, the project will go through data preparation, machine learning experimentation using classic scikit-learn models, and model evaluation.
 
-![ezcv logo]([https://raw.githubusercontent.com/Descent098/ezcv/master/.github/logo.png](https://github.com/Pollybs/dataiku_ML_heart_attack_prediction/blob/main/EDA-Heart-Failure-Prediction-Dataset.png)
+![ezcv logo](https://github.com/Pollybs/dataiku_ML_heart_attack_prediction/blob/main/EDA-Heart-Failure-Prediction-Dataset.png)
