@@ -99,7 +99,7 @@
             "clickAction": "DO_NOTHING",
             "autoLoad": true,
             "showTitle": "MOUSEOVER",
-            "title": "missing values \u0026 distinct values (cardinality)",
+            "title": "Missing values \u0026 distinct values (cardinality)",
             "borderColor": "",
             "displayMode": "IMAGE",
             "imageId": "x6PuWq3",
