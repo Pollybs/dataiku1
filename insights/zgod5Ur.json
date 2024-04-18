@@ -28,7 +28,7 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Sum of Age by Age",
+      "name": "Age",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
@@ -143,6 +143,7 @@
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
+        "axisTitle": "",
         "axisTitleFormatting": {
           "fontSize": 15,
           "fontColor": "#333",
@@ -436,7 +437,7 @@
   },
   "owner": "pollybernardes@gmail.com",
   "listed": false,
-  "name": "Sum of Age by Age on heart_measures",
+  "name": "Age on heart_measures",
   "dashboardCreationId": "ynpnAWt",
   "creationTag": {
     "versionNumber": 0,
