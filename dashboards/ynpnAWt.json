@@ -3,7 +3,27 @@
     {
       "id": "bxae5N3",
       "grid": {
-        "tiles": []
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 4,
+              "height": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showCode": false
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "MRFpgbs",
+            "insightType": "jupyter",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
       },
       "showTitle": false,
       "enableCrossFilters": true,

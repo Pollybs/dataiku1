@@ -1,0 +1,25 @@
+{
+  "type": "jupyter",
+  "params": {
+    "notebookSmartName": "1 - Preparing the heart_measures dataset for ML modeling",
+    "exportTimestamp": 0,
+    "loadLast": true
+  },
+  "owner": "pollybernardes@gmail.com",
+  "listed": false,
+  "name": "1 - Preparing the heart_measures dataset for ML modeling (2024-04-18 02:25)",
+  "dashboardCreationId": "ynpnAWt",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "pollybernardes@gmail.com"
+    },
+    "lastModifiedOn": 1713450334226,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
