@@ -55,6 +55,21 @@
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "IMAGE",
+            "box": {
+              "top": 2,
+              "left": 0,
+              "width": 7,
+              "height": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "autoLoad": true,
+            "showTitle": "MOUSEOVER",
+            "displayMode": "IMAGE",
+            "imageId": "a0WZcUc",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
