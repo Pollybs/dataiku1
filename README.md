@@ -7,4 +7,6 @@ Using Python notebooks and Dataiku Machine Learning experiment tracking capabili
 
 <h2>Dataset </h2>
 
-![Model](https://github.com/Pollybs/dataiku_ML_heart_attack_prediction/blob/main/EDA-Heart-Failure-Prediction-Dataset.png)
+![EDA](https://github.com/Pollybs/dataiku_ML_heart_attack_prediction/blob/main/EDA-Heart-Failure-Prediction-Dataset.png)
+
+Dataset Source: Heart Failure Prediction Dataset. Retrieved from <a href="https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction"> Kaggle</a>
