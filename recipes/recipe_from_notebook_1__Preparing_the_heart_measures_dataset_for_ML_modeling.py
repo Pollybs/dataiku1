@@ -203,6 +203,6 @@ heart_measures_train_df, heart_measures_test_df = train_test_split(df_cleaned, t
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Recipe outputs
 heart_measures_train = dataiku.Dataset("heart_measures_train")
-heart_measures_train.write_with_schema(pandas_dataframe)
-heart_measures_test = dataiku.Dataset("heart_measures_test")
-heart_measures_test.write_with_schema(pandas_dataframe)
+heart_measures_train.write_with_schema(heart_measures_train_df)
+heart_measured_test = dataiku.Dataset("heart_measures_test")
+heart_measured_test.write_with_schema(heart_measures_test_df)
