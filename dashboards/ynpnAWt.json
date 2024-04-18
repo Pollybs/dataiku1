@@ -71,7 +71,7 @@
             "showTitle": "MOUSEOVER",
             "displayMode": "IMAGE",
             "imageId": "a0WZcUc",
-            "resizeImageMode": "ORIG_SIZE"
+            "resizeImageMode": "FIT_CROP_SIZE"
           },
           {
             "tileType": "IMAGE",
@@ -86,7 +86,7 @@
             "showTitle": "MOUSEOVER",
             "displayMode": "IMAGE",
             "imageId": "VNXs5JI",
-            "resizeImageMode": "ORIG_SIZE"
+            "resizeImageMode": "FIT_CROP_SIZE"
           },
           {
             "tileType": "IMAGE",
