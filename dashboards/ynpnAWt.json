@@ -9,7 +9,7 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 3,
+              "width": 2,
               "height": 2
             },
             "clickAction": "DO_NOTHING",
@@ -34,7 +34,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 3,
+              "left": 2,
               "width": 4,
               "height": 2
             },
@@ -59,9 +59,9 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 6,
-              "left": 5,
-              "width": 7,
+              "top": 2,
+              "left": 6,
+              "width": 5,
               "height": 4
             },
             "clickAction": "DO_NOTHING",
@@ -76,7 +76,7 @@
             "box": {
               "top": 2,
               "left": 0,
-              "width": 5,
+              "width": 6,
               "height": 4
             },
             "clickAction": "DO_NOTHING",
@@ -90,9 +90,9 @@
             "tileType": "IMAGE",
             "box": {
               "top": 0,
-              "left": 7,
-              "width": 4,
-              "height": 3
+              "left": 8,
+              "width": 3,
+              "height": 2
             },
             "clickAction": "DO_NOTHING",
             "autoLoad": true,
@@ -100,9 +100,25 @@
             "displayMode": "IMAGE",
             "imageId": "x6PuWq3",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "IMAGE",
+            "box": {
+              "top": 0,
+              "left": 6,
+              "width": 2,
+              "height": 2
+            },
+            "clickAction": "DO_NOTHING",
+            "autoLoad": true,
+            "showTitle": "MOUSEOVER",
+            "displayMode": "IMAGE",
+            "imageId": "bTXOhyd",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
+      "title": "EDA Heart Failure Prediction Dataset.",
       "showTitle": false,
       "enableCrossFilters": true,
       "showFilterPanel": true,
