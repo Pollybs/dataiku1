@@ -64,7 +64,7 @@
               "top": 2,
               "left": 6,
               "width": 6,
-              "height": 5
+              "height": 4
             },
             "clickAction": "DO_NOTHING",
             "autoLoad": true,
@@ -79,7 +79,7 @@
               "top": 2,
               "left": 0,
               "width": 6,
-              "height": 5
+              "height": 4
             },
             "clickAction": "DO_NOTHING",
             "autoLoad": true,
@@ -92,7 +92,7 @@
             "tileType": "IMAGE",
             "box": {
               "top": 0,
-              "left": 2,
+              "left": 0,
               "width": 3,
               "height": 2
             },
@@ -108,7 +108,7 @@
             "tileType": "IMAGE",
             "box": {
               "top": 0,
-              "left": 0,
+              "left": 3,
               "width": 2,
               "height": 2
             },
