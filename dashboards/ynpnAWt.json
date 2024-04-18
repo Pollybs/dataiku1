@@ -143,7 +143,7 @@
         ]
       },
       "title": "EDA Heart Failure Prediction Dataset",
-      "showTitle": false,
+      "showTitle": true,
       "enableCrossFilters": true,
       "showFilterPanel": true,
       "filtersParams": {
