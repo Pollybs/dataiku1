@@ -29,7 +29,7 @@
       "type": "grouped_columns",
       "variant": "normal",
       "name": "Sum of Age by Age",
-      "userEditedName": false,
+      "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
         {
