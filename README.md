@@ -1,6 +1,8 @@
 <h1>Dataiku ML Project: Prediction of heart attack failures using the Heart Failure Prediction Dataset</h1>
 
-Project Objective: Build a precise predictive model leveraging machine learning techniques on the Dataiku DSS platform to forecast heart failure incidents accurately.  The model was trained and tested using Python and the Heart Failure Prediction Dataset.
+Project Objective: 1 - Build a precise predictive model leveraging machine learning techniques on the Dataiku DSS platform to forecast heart failure incidents accurately.  The model was trained and tested using Python and the Heart Failure Prediction Dataset.
+
+Dataiku DSS(Dataiku Data Science Studio) is a Big Data solution and predictive analysis software developed by the French publisher Dataiku.
 
 <h2>Project Steps: </h2>
 
