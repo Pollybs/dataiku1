@@ -85,8 +85,25 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"Age","type":"double"},
+      {"name":"RestingBP","type":"double"},
+      {"name":"Cholesterol","type":"double"},
+      {"name":"MaxHR","type":"double"},
+      {"name":"Oldpeak","type":"double"},
+      {"name":"HeartDisease","type":"bigint"},
+      {"name":"Sex_1","type":"string"},
+      {"name":"ChestPainType_2","type":"string"},
+      {"name":"ChestPainType_3","type":"string"},
+      {"name":"ChestPainType_4","type":"string"},
+      {"name":"FastingBS_1","type":"string"},
+      {"name":"RestingECG_1","type":"string"},
+      {"name":"RestingECG_2","type":"string"},
+      {"name":"ExerciseAngina_1","type":"string"},
+      {"name":"ST_Slope_1","type":"string"},
+      {"name":"ST_Slope_2","type":"string"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
