@@ -28,7 +28,7 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Sex",
+      "name": "Sex Count",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
@@ -178,8 +178,8 @@
       "yAxesFormatting": [
         {
           "id": "y_left_0",
-          "displayAxis": true,
-          "showAxisTitle": true,
+          "displayAxis": false,
+          "showAxisTitle": false,
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -272,7 +272,7 @@
       "hexbinNumber": 20,
       "hexbinRadiusMode": "NUM_HEXAGONS",
       "valuesInChartDisplayOptions": {
-        "displayValues": false,
+        "displayValues": true,
         "displayPieLabelsOrValues": true,
         "displayMode": "LABELS",
         "overlappingStrategy": "AUTO",
