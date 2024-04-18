@@ -71,7 +71,7 @@
             "showTitle": "MOUSEOVER",
             "displayMode": "IMAGE",
             "imageId": "a0WZcUc",
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_CROP_SIZE"
           },
           {
             "tileType": "IMAGE",
