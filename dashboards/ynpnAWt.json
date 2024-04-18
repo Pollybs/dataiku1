@@ -7,9 +7,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 3,
-              "left": 0,
-              "width": 3,
+              "top": 1,
+              "left": 7,
+              "width": 2,
               "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
@@ -34,9 +34,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 3,
-              "left": 3,
-              "width": 8,
+              "top": 1,
+              "left": 9,
+              "width": 3,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -61,7 +61,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 6,
+              "top": 4,
               "left": 6,
               "width": 6,
               "height": 5
@@ -76,7 +76,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 6,
+              "top": 4,
               "left": 0,
               "width": 6,
               "height": 5
@@ -91,16 +91,15 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 0,
-              "left": 6,
-              "width": 5,
+              "top": 1,
+              "left": 3,
+              "width": 4,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
             "autoLoad": true,
             "showTitle": "YES",
             "title": "Missing values \u0026 distinct values (cardinality)",
-            "borderColor": "",
             "displayMode": "IMAGE",
             "imageId": "x6PuWq3",
             "resizeImageMode": "FIT_SIZE"
@@ -108,8 +107,8 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 0,
-              "left": 3,
+              "top": 1,
+              "left": 0,
               "width": 3,
               "height": 3
             },
@@ -119,19 +118,19 @@
             "title": "Target variable",
             "displayMode": "IMAGE",
             "imageId": "bTXOhyd",
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_CROP_SIZE"
           },
           {
             "tileType": "TEXT",
             "box": {
               "top": 0,
               "left": 0,
-              "width": 3,
-              "height": 3
+              "width": 12,
+              "height": 1
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "11 clinical features for predicting heart disease events.\nInitial shape of the dataset: 918, 12 \nShape after dummies transformation: 918, 16\n\nRetrieved [Date Retrieved] from https://www.kaggle.com/fedesoriano/heart-failure-prediction.",
+              "text": "11 clinical features for predicting heart disease events.. Initial shape of the dataset: 918, 12 . Shape after dummies transformation: 918, 16. Retrieved  from \u003ca href\u003d\"https://www.kaggle.com/fedesoriano/heart-failure-prediction\"\u003e  Kaggle\u003c/a\u003e",
               "textAlign": "LEFT",
               "isTransparent": false
             },
