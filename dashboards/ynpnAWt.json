@@ -7,9 +7,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
-              "left": 7,
-              "width": 2,
+              "top": 3,
+              "left": 0,
+              "width": 4,
               "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
@@ -34,9 +34,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
-              "left": 9,
-              "width": 3,
+              "top": 3,
+              "left": 4,
+              "width": 8,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -61,7 +61,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 4,
+              "top": 6,
               "left": 6,
               "width": 6,
               "height": 5
@@ -76,7 +76,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 4,
+              "top": 6,
               "left": 0,
               "width": 6,
               "height": 5
@@ -86,14 +86,14 @@
             "showTitle": "MOUSEOVER",
             "displayMode": "IMAGE",
             "imageId": "VNXs5JI",
-            "resizeImageMode": "FIT_CROP_SIZE"
+            "resizeImageMode": "FIT_SIZE"
           },
           {
             "tileType": "IMAGE",
             "box": {
               "top": 0,
-              "left": 0,
-              "width": 4,
+              "left": 4,
+              "width": 5,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -109,7 +109,7 @@
             "tileType": "IMAGE",
             "box": {
               "top": 0,
-              "left": 4,
+              "left": 9,
               "width": 3,
               "height": 3
             },
@@ -119,6 +119,25 @@
             "title": "Target variable",
             "displayMode": "IMAGE",
             "imageId": "bTXOhyd",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 4,
+              "height": 3
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "\u003ch4\u003e\u003cb\u003e Initial shape of the dataset \u003c/b\u003e: 918, 12 \u003c/h4\u003e\n\u003ch4\u003e\u003cb\u003e Shape after dummies transformation: \u003c/b\u003e 918, 16\u003c/h4\u003e",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
         ]
