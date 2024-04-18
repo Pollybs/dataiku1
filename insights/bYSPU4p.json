@@ -28,7 +28,7 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Gender",
+      "name": "Sex",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
