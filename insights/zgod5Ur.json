@@ -270,7 +270,7 @@
       "strokeWidth": 2,
       "fillOpacity": 0.6,
       "tooltipOptions": {
-        "display": true
+        "display": false
       },
       "hexbinRadius": 20,
       "hexbinNumber": 20,
