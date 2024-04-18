@@ -12,7 +12,7 @@
               "width": 2,
               "height": 2
             },
-            "clickAction": "DO_NOTHING",
+            "clickAction": "OPEN_INSIGHT",
             "tileParams": {
               "showXAxis": true,
               "showYAxis": true,
@@ -25,6 +25,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
+            "title": "Count Sex",
             "insightId": "bYSPU4p",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -51,6 +52,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
+            "title": "Age",
             "insightId": "zgod5Ur",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -97,6 +99,8 @@
             "clickAction": "DO_NOTHING",
             "autoLoad": true,
             "showTitle": "MOUSEOVER",
+            "title": "missing values \u0026 distinct values (cardinality)",
+            "borderColor": "",
             "displayMode": "IMAGE",
             "imageId": "x6PuWq3",
             "resizeImageMode": "FIT_SIZE"
@@ -112,6 +116,7 @@
             "clickAction": "DO_NOTHING",
             "autoLoad": true,
             "showTitle": "MOUSEOVER",
+            "title": "Target variable",
             "displayMode": "IMAGE",
             "imageId": "bTXOhyd",
             "resizeImageMode": "FIT_SIZE"
