@@ -9,6 +9,8 @@ Using Python notebooks and Dataiku Machine Learning experiment tracking capabili
 
 - Data preparation and EDA,
   
+- Configuration of a Dataiku Flow
+  
 - Machine learning experimentation using classic scikit-learn models,
   
 - Model evaluation.
