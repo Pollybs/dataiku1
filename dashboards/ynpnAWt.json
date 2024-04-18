@@ -7,10 +7,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 1,
-              "left": 7,
+              "top": 0,
+              "left": 5,
               "width": 2,
-              "height": 3
+              "height": 2
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -34,10 +34,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 1,
-              "left": 9,
-              "width": 3,
-              "height": 3
+              "top": 0,
+              "left": 7,
+              "width": 5,
+              "height": 2
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -61,7 +61,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 4,
+              "top": 2,
               "left": 6,
               "width": 6,
               "height": 5
@@ -76,7 +76,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 4,
+              "top": 2,
               "left": 0,
               "width": 6,
               "height": 5
@@ -91,10 +91,10 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 1,
-              "left": 3,
-              "width": 4,
-              "height": 3
+              "top": 0,
+              "left": 2,
+              "width": 3,
+              "height": 2
             },
             "clickAction": "DO_NOTHING",
             "autoLoad": true,
@@ -107,10 +107,10 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 1,
+              "top": 0,
               "left": 0,
-              "width": 3,
-              "height": 3
+              "width": 2,
+              "height": 2
             },
             "clickAction": "DO_NOTHING",
             "autoLoad": true,
@@ -118,25 +118,6 @@
             "title": "Target variable",
             "displayMode": "IMAGE",
             "imageId": "bTXOhyd",
-            "resizeImageMode": "FIT_CROP_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 0,
-              "left": 0,
-              "width": 12,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "11 clinical features for predicting heart disease events.. Initial shape of the dataset: 918, 12 . Shape after dummies transformation: 918, 16. Retrieved  from \u003ca href\u003d\"https://www.kaggle.com/fedesoriano/heart-failure-prediction\"\u003e  Kaggle\u003c/a\u003e",
-              "textAlign": "LEFT",
-              "isTransparent": false
-            },
-            "autoLoad": true,
-            "showTitle": "NO",
-            "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
         ]
