@@ -131,7 +131,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "\u003ch4\u003e Initial shape of the dataset: 918, 12 \u003c/h4\u003e\n\u003ch4\u003e Shape after dummies transformation: 918, 16\u003c/h4\u003e",
+              "text": "11 clinical features for predicting heart disease events.\nInitial shape of the dataset: 918, 12 \nShape after dummies transformation: 918, 16\n\nRetrieved [Date Retrieved] from https://www.kaggle.com/fedesoriano/heart-failure-prediction.",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -142,8 +142,8 @@
           }
         ]
       },
-      "title": "EDA Heart Failure Prediction Dataset.",
-      "showTitle": true,
+      "title": "EDA Heart Failure Prediction Dataset",
+      "showTitle": false,
       "enableCrossFilters": true,
       "showFilterPanel": true,
       "filtersParams": {
