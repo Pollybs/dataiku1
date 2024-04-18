@@ -18,7 +18,7 @@ Using Python notebooks and Dataiku Machine Learning experiment tracking capabili
 <h3>4 - Machine learning experimentation: the test of different Machine Learning approaches to predict heart failures using scikit-learn models</h3>
 
 Scikit-learn models models tested: 
-  - Logistic regression,
+  - Logistic regression
   - SVM
   - Decision Tree
   - Random Forest
