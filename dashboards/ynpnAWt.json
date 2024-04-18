@@ -7,7 +7,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
+              "top": 1,
               "left": 5,
               "width": 2,
               "height": 2
@@ -34,7 +34,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
+              "top": 1,
               "left": 7,
               "width": 5,
               "height": 2
@@ -61,7 +61,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 2,
+              "top": 3,
               "left": 6,
               "width": 6,
               "height": 4
@@ -76,7 +76,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 2,
+              "top": 3,
               "left": 0,
               "width": 6,
               "height": 4
@@ -91,7 +91,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 0,
+              "top": 1,
               "left": 0,
               "width": 3,
               "height": 2
@@ -107,7 +107,7 @@
           {
             "tileType": "IMAGE",
             "box": {
-              "top": 0,
+              "top": 1,
               "left": 3,
               "width": 2,
               "height": 2
@@ -118,6 +118,25 @@
             "title": "Target variable",
             "displayMode": "IMAGE",
             "imageId": "bTXOhyd",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "The shape of the dataset is (918, 12). Data source: \u003ca href\u003d\"https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction\"\u003e Kaggle\u003c/a\u003e",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
         ]
