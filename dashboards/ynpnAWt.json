@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "id": "bxae5N3",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false,
+      "enableCrossFilters": true,
+      "showFilterPanel": true,
+      "filtersParams": {
+        "panelPosition": "TOP",
+        "engineType": "LINO"
+      }
+    }
+  ],
+  "owner": "pollybernardes@gmail.com",
+  "listed": false,
+  "name": "EDA Heart Attack Data",
+  "showGrid": false,
+  "showNavigationArrows": false,
+  "reloadWhenEventReceived": false,
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "pollybernardes@gmail.com"
+    },
+    "lastModifiedOn": 1713450210562,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
