@@ -9,7 +9,7 @@
             "box": {
               "top": 3,
               "left": 0,
-              "width": 4,
+              "width": 3,
               "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
@@ -35,7 +35,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 3,
-              "left": 4,
+              "left": 3,
               "width": 8,
               "height": 3
             },
@@ -71,7 +71,7 @@
             "showTitle": "MOUSEOVER",
             "displayMode": "IMAGE",
             "imageId": "a0WZcUc",
-            "resizeImageMode": "ORIG_SIZE"
+            "resizeImageMode": "FIT_CROP_SIZE"
           },
           {
             "tileType": "IMAGE",
@@ -86,13 +86,13 @@
             "showTitle": "MOUSEOVER",
             "displayMode": "IMAGE",
             "imageId": "VNXs5JI",
-            "resizeImageMode": "ORIG_SIZE"
+            "resizeImageMode": "FIT_CROP_SIZE"
           },
           {
             "tileType": "IMAGE",
             "box": {
               "top": 0,
-              "left": 4,
+              "left": 6,
               "width": 5,
               "height": 3
             },
@@ -109,7 +109,7 @@
             "tileType": "IMAGE",
             "box": {
               "top": 0,
-              "left": 9,
+              "left": 3,
               "width": 3,
               "height": 3
             },
@@ -126,12 +126,12 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 4,
+              "width": 3,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "\u003ch4\u003e\u003cb\u003e Initial shape of the dataset \u003c/b\u003e: 918, 12 \u003c/h4\u003e\n\u003ch4\u003e\u003cb\u003e Shape after dummies transformation: \u003c/b\u003e 918, 16\u003c/h4\u003e",
+              "text": "\u003ch4\u003e Initial shape of the dataset: 918, 12 \u003c/h4\u003e\n\u003ch4\u003e Shape after dummies transformation: 918, 16\u003c/h4\u003e",
               "textAlign": "LEFT",
               "isTransparent": false
             },
