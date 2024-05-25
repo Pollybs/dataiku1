@@ -12,6 +12,14 @@ Using Python notebooks and Dataiku Machine Learning experiment tracking capabili
 <h3>1 - Configuration of the Dataiku DSS environment and project,</h3>
 
 <h3>2 - Data preparation and EDA</h3>
+
+Checking the distribution of the target variable
+
+Transformation of categorical variables into dummies
+
+Scaling of continuous variables
+
+Splitting the dataset (train/test)
   
 <h3>3 - Configuration of the Dataiku Flow</h3>
   
